@@ -1,0 +1,51 @@
+Morgan and Chloe Error Sheet 1:
+
+Error 1: Line 1 <html> tag can be deleted
+Error 2: Line 1 add <!DOCTYPE html> 
+Error 3: Line 4 change language to lang
+Error 4: Line 7 missing closing </head> tag
+Error 5: Line 9 missing closing </h1> tag
+Error 6: Line 11 missing opening <p> tag
+Error 7: Line 19 should have an opening tag of <li>
+Error 8: Line 24 should be closing </ol> tag
+Error 9: Line 26 missing closing </p> tag
+Error 10: Line 28 Image.png should be changed to image.jpg
+Error 11: Line 28 missing the alt attribute
+Error 12: Line 30 should have a closing </a> tag instead of an </img> tag 
+Error 13: Line 39 closing tag is missing the / should be </td>
+Error 14: Line 45 missing a closing </table> tag
+Error 15: Line 46 source should be src
+Error 16: Line 46 error.jpeg should be error.jpg
+Error 17: Line 48 should have closing and opening paragraph tags <p></p>
+Error 18: Line 48 should have closing and opening strike tags <s></s> nested in the paragraph tags
+Error 19: Line 50 is called wrong it should be <p style="background-color:lightgray;">Text</p>
+Error 20: Line 54 did not close out comment with  -->
+Error 21: Line 56 is missing a closing </a> tag
+Error 22: Line 58 should be title tags <u></u> instead of <em></em> tags
+Error 23: Line 58 the now changed <u></u> tags should be nested inside of the paragraph tags
+Error 24: Line 61 the opening and closing <li></li> tags should become <dt></dt> tags
+Error 25: Line 62 the opening and closing <li></li> tags should become <dd></dd> tags
+Error 26: Line 64 should have a closing </h2> tag
+
+
+Morgan and Chloe Error Sheet 2:
+
+1. h1 on line 4 tag needs to be in body not head, so move the h1 tag to the body before the h2 tag to keep hierachry.
+2. Head needs ending tag after line 4 </head>
+3. First html tag should be after line 4 and after the ending head tag.
+4. Body is missing > instead of being <body it needs to be <body> on line 5
+5. <div> has no ending tag of </div> on line 7 you can fix this by adding ending div tag wherever you want your div to be.
+6. Body needs ending tag of </body> after line 15
+7. Line 8 missing end tag for strong. Needs to be </strong>
+8. Missing ending </p> tag on line 8 so add one after ending strong tag.
+9. img href should be img src instead on line 10
+10. add an underscore in image 2.jpg so it will be image_2.jpg on line 10 to make the image load in properly.
+11. alt is missing in img src to desribe the picture on line 10 to describe the picture
+12. Line 12 missing front tag <h2> for end tag </h2>
+13. Starting p tag is missing on line 14 so add one, <p>
+14. Comment isnt in proper format of <!-- --> on line 15
+15. Missing l in html end tag </htm> to </html> on line 16
+
+Extra: Missing html language between line 1 and 2
+
+
