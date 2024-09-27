@@ -14,11 +14,11 @@ html {
 /* styles specific to the main business card contents */
 /* Card Container */
 .card {
-    width: 35em; /* Fixed width */
-    height: 22em; /* Fixed height */
+    width: 35em; 
+    height: 22em; 
     margin: 5em auto;
-    background-color: red; /* Solid background color */
-    border: 0.2em solid black; /* Border */
+    background-color: red; 
+    border: 0.2em solid black; 
     border-radius: 1.5em; /* Rounded corners */
     display: flex;
     flex-direction: column;
@@ -71,12 +71,12 @@ h2, p {
 .card header h2 {
     font-size: 1.25em; /* 20px */
     line-height: 2em; 
+    padding-left: 0.75em;
 }
 
 /* Footer styling for p */
 .card footer p {
     font-size: 0.9375em; /* 15px */
-    line-height: 2em; 
 }
 
 /* Paragraph inside article */
