@@ -2,8 +2,8 @@ body{
     background-image: url("/img/061124WNT1200x667.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
-    color: #fff;
+    /* color: #fff; */
+    /* background-color: black; */
 }
 .back_img{
     position: absolute;
