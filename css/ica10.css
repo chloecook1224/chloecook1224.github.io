@@ -1,0 +1,14 @@
+img{
+    width:400px;
+    height: auto;
+}
+.pandaText{
+    font-size: 35px;
+    padding-left: 110px;
+}
+.pandaInfo{
+    display: none; /* Initially hidden */
+    margin-top: 5px; /* Add some space above */
+    padding-left: 60px;
+}
+
