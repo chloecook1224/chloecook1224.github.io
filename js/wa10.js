@@ -1,4 +1,3 @@
-// 1. COMPLETE VARIABLE AND FUNCTION DEFINITIONS
 const customName = document.getElementById("customName");
 const randomize = document.getElementById("randomize");
 const story = document.getElementById("story");
@@ -7,14 +6,14 @@ function randomValueFromArray(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 
-// 2. RAW TEXT STRINGS
+
 const storyText = "Once upon a time, :insertx: went to the :inserty: and saw a :insertz:. Bob weighed 300 pounds and was 94 fahrenheit.";
 
 const insertX = ["Shrek", "Donkey", "Fiona"];
 const insertY = ["mythical forest", "castle", "swamp"];
 const insertZ = ["hotdog", "sandwich", "hamburger"];
 
-// 3. EVENT LISTENER AND PARTIAL FUNCTION DEFINITION
+
 randomize.addEventListener("click", result);
 
 function result() {
