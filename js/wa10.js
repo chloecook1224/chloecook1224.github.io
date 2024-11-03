@@ -30,7 +30,7 @@ function result() {
 
     if (customName.value !== "") {
         const name = customName.value;
-        newStory = newStory.replace(/Bobby/g, name);
+        newStory = newStory.replace(/Bob/g, name);
     }
 
     const uk = document.getElementById("uk").checked;
