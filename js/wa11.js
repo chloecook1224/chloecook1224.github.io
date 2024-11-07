@@ -1,13 +1,13 @@
 // Array of image filenames
-const imageFilenames = ['/img/unicorns/unicorn (1).png', '/img/unicorns/unicorn (2).png', '/img/unicorns/unicorn (3).png', '/img/unicorns/unicorn (4).png', '/img/unicorns/unicorn (5).png'];
+const imageFilenames = ['/img/unicorns/unicorn_(1).png', '/img/unicorns/unicorn_(2).png', '/img/unicorns/unicorn_(3).png', '/img/unicorns/unicorn_(4).png', '/img/unicorns/unicorn_(5).png'];
 
 // Object containing alt text for each image
 const altTexts = {
-  '/img/unicorns/unicorn (1).png': 'Closeup of a blue human eye',
-  '/img/unicorns/unicorn (2).png': 'Mountain landscape at sunset',
-  '/img/unicorns/unicorn (3).png': 'A forest path during autumn',
-  '/img/unicorns/unicorn (4).png': 'Beach with golden sands',
-  '/img/unicorns/unicorn (5).png': 'City skyline at night'
+  '/img/unicorns/unicorn_(1).png': 'Closeup of a blue human eye',
+  '/img/unicorns/unicorn_(2).png': 'Mountain landscape at sunset',
+  '/img/unicorns/unicorn_(3).png': 'A forest path during autumn',
+  '/img/unicorns/unicorn_(4).png': 'Beach with golden sands',
+  '/img/unicorns/unicorn_(5).png': 'City skyline at night'
 };
 
 // Reference to the thumb-bar div
@@ -16,7 +16,7 @@ const thumbBar = document.querySelector('.thumb-bar');
 // Loop through the array of image filenames to insert thumbnail images
 imageFilenames.forEach(filename => {
   const newImage = document.createElement('img');
-  newImage.src = `images/${filename}`;
+  newImage.src = `img/${filename}`;
   newImage.alt = altTexts[filename];
   thumbBar.appendChild(newImage);
 });
