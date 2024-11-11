@@ -1,19 +1,19 @@
 // Array of image filenames (correct path relative to the current folder)
 const imageFilenames = [
-    '/img/unicorns/unicorn_(1).png',
-    '/img/unicorns/unicorn_(2).png',
-    '/img/unicorns/unicorn_(3).png',
-    '/img/unicorns/unicorn_(4).png',
-    '/img/unicorns/unicorn_(5).png'
+    '/img/cat_1.jpg',
+    '/img/cat_2.jpg',
+    '/img/cat_3.jpg',
+    '/img/cat_4.jpg',
+    '/img/cat_5.jpg'
   ];
   
   // Object containing alt text for each image
   const altTexts = {
-    '/img/unicorns/unicorn_(1).png': 'Closeup of a blue human eye',
-    '/img/unicorns/unicorn_(2).png': 'Mountain landscape at sunset',
-    '/img/unicorns/unicorn_(3).png': 'A forest path during autumn',
-    '/img/unicorns/unicorn_(4).png': 'Beach with golden sands',
-    '/img/unicorns/unicorn_(5).png': 'City skyline at night'
+    '/img/cat_1.jpg': 'Closeup of a blue human eye',
+    '/img/cat_2.jpg': 'Mountain landscape at sunset',
+    '/img/cat_3.jpg': 'A forest path during autumn',
+    '/img/cat_4.jpg': 'Beach with golden sands',
+    '/img/cat_5.jpg': 'City skyline at night'
   };
   
   // Reference to the thumb-bar div
