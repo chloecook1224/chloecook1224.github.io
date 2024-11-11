@@ -1,69 +1,69 @@
-/* Basic page styling */
+
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
   
-  h1 {
-    margin-bottom: 20px;
-  }
+h1 {
+  margin-bottom: 20px;
+}
   
-  /* Full-sized image container */
-  .full-img {
-    position: relative;
-    max-width: 600px;
-    margin: 0 auto;
-  }
+
+.full-img {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
   
-  .displayed-img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+.displayed-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
   
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgb(0 0 0 / 0%);
-    transition: background-color 0.3s;
-  }
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(0 0 0 / 0%);
+  transition: background-color 0.3s;
+}
   
-  button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-  }
+button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
   
-  button:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-  }
+button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
   
-  /* Thumbnail bar */
-  .thumb-bar {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
-  }
+
+.thumb-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
   
-  .thumb-bar img {
-    width: 20%;
-    height: auto;
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
+.thumb-bar img {
+  width: 20%;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
   
-  .thumb-bar img:hover {
-    transform: scale(1.1);
-  }
+.thumb-bar img:hover {
+  transform: scale(1.1);
+}
   
