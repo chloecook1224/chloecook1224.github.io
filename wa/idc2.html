@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Project</title>
+  <link rel="stylesheet" href="/css/idc2.css">
+</head>
+<body>
+  <header>
+    <h1>BMO Tamagotchi</h1>
+  </header>
+
+  <section id="description">
+    <h2>About My Project</h2>
+    <p>This project is a BMO Tamagtohci. You can feed BMO, pet BMO, and clean BMO all with the RFID chips. There is also an option to open up a menu screen to see how BMO is doing in terms of hunger, happiness and cleaniness. A personal little BMO!</p>
+  </section>
+
+  <section id="showcase">
+    <h2>Project Showcase</h2>
+    <div id="main-image-container">
+      <img id="main-image" src="/img/bmodoc.png" alt="Main Project Image">
+    </div>
+    <div id="thumbnail-container">
+      <img class="thumbnail" src="/img/rifd.png" alt="Image 1" onclick="changeImage('/img/bmoeat.gif')">
+      <img class="thumbnail" src="/img/rifd.png" alt="Image 2" onclick="changeImage('/img/bmoheart.gif')">
+      <img class="thumbnail" src="/img/rifd.png" alt="Image 3" onclick="changeImage('/img/bmoclean.gif')">
+      <img class="thumbnail" src="/img/card.png" alt="Image 4" onclick="changeImage('/img/menubmo.png')">
+    </div>
+    <p>Parts Used:</p>
+    <p>-1 OLED <br> -1 Mini RFID Reader <br> -3 RFID Chips <br> -1 RFID Card <br> -1 Arduino Pro Mini </p>
+  </section>
+
+  <section id="process">
+    <h2>Project Process</h2>
+    <p>Here is the step-by-step process of how I developed my project:</p>
+    <div class="process-step">
+      <h3>Step 1: Planning</h3>
+      <p>Here is just a portion of my planning, a lot of plannign first went into the parts I orded, then into designing my encolusre aroudnt he szie of my parts. Here is a design of my enclosure in Rhino 3D:</p>
+      <img src="/img/rhino.png" alt="Step 1" class="process-image">
+    </div>
+    <div class="process-step">
+      <h3>Step 2: Development</h3>
+      <p>Here is a video of the development of my enclosure. While this was happenign I also worked on figuring out what each of my parts does fully:</p>
+      <img src="/img/IMG_8649.MOV" alt="Step 2" class="process-image">
+    </div>
+    <div class="process-step">
+      <h3>Step 3: Testing</h3>
+      <p>Lastly a video of me testing my code and putting everything together on a bread board.</p>
+      <img src="/img/IMG_8654.mov" alt="Step 3" class="process-image">
+    </div>
+    <div class="process-step">
+        <h3>Challenges</h3>
+        <p>Throughout this project, I encountered numerous challenges. Unfortunately, the project isn't fully functional in its final form due to difficulties with soldering, as the components are quite miniature. While the system works on a breadboard, I struggled with soldering due to the size of the parts and the complexity of the assembly. Additionally, several components broke during the process, and due to time constraints, I wasn’t able to replace items like the batteries. Recently, my OLED display also malfunctioned. Despite these setbacks, I'm incredibly proud of the coding skills I've developed and the range of Arduino components I've learned to work with. Moving forward, I plan to continue this project and create an improved version, using the knowledge and experience I’ve gained.</p>
+
+      </div>
+  <footer>
+    <p>&copy; 2024 Chloe Cook BMO Tamagotchi.</p>
+  </footer>
+
+  <script src="/js/idc2.js"></script>
+</body>
+</html>
