@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #F1F0E7;  /* Light Beige background */
+    color: #3A6D47;  /* Dark Sage Green */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #A7B9A1;  /* Sage Green */
+    padding: 1.5rem 0;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    color: #A7B9A1;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#projects {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #D2D8C4;  /* Light Sage Beige */
+    border-radius: 16px;
+    padding: 1.5rem;
+    width: 70%;  /* Make the project card span the full width of the container */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: block;  /* Ensure the card is block-level */
+    margin-bottom: 1.5rem;  /* Space between each card */
+}
+
+.project-card a {
+    color: inherit;  /* Inherit text color from the parent */
+    text-decoration: none;  /* Remove underline from the links */
+    display: block;  /* Make the anchor tag a block-level element to take up the full card */
+}
+
+.project-content {
+    display: flex;
+    justify-content: space-between;  /* Align text and image with space between them */
+    align-items: center;
+}
+
+.project-text {
+    flex: 1;
+    padding-right: 1.5rem;  /* Space between the text and the image */
+}
+
+.project-image {
+    flex-shrink: 0;  /* Prevent the image from shrinking */
+}
+
+.project-image img {
+    max-width: 200px;  /* Set a maximum width for the image */
+    height: auto;  /* Maintain the aspect ratio */
+    border-radius: 8px;  /* Optional: to give the image rounded corners */
+}
+.project-image-github img {
+    max-width: 100px;  /* Set a maximum width for the image */
+    height: auto;  /* Maintain the aspect ratio */
+    border-radius: 8px;  /* Optional: to give the image rounded corners */
+}
+
+
+.project-content {
+    display: flex;
+    justify-content: space-between;  /* Align text and image with space between them */
+    align-items: center;
+}
+
+.project-text {
+    flex: 1;
+    padding-right: 1.5rem;  /* Space between the text and the image */
+}
+
+.project-image {
+    flex-shrink: 0;  /* Prevent the image from shrinking */
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #A7B9A1;
+    border-radius: 8px;
+    background-color: #F8F8F0; /* Light beige background for form */
+    font-size: 1rem;
+}
+
+#contact-form button {
+    background-color: #A7B9A1;  /* Sage Green */
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #8A9E85;  /* Slightly darker sage */
+}
+
+footer {
+    background-color: #A7B9A1;  /* Sage Green */
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+/* Add the background image to the container holding the projects */
+#projects {
+    
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    background-image: url('/portfolioImage/doggy.png'); /* Set your image path here */
+    background-size: 500px 1500px; /* 300px wide, 200px tall */
+
+    background-position: left; /* Center the image */
+    background-position: 1000px -5px;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    padding: 2rem 0; /* Optional: Adjust padding as necessary */
+}
+#projects2{
+    
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    background-image: url('/portfolioImage/doggy.png'); /* Set your image path here */
+    background-size: 500px 1400px; /* 300px wide, 200px tall */
+
+    background-position: left; /* Center the image */
+    background-position: 1000px -695px;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    padding: 2rem 0; /* Optional: Adjust padding as necessary */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
